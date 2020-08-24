@@ -1,2 +1,3 @@
-  # Directory with the serverless Lambda functions to deploy to AWS.
-  functions = "functions/"
+[dev]
+command = "npm run build"
+functions = "functions"
